@@ -10,7 +10,7 @@ import json
 import streamlit as st
 from dotenv import load_dotenv
 
-from prompts import SYSTEM_PROMPT, build_analysis_prompt
+from prompt import SYSTEM_PROMPT, build_analysis_prompt
 from utils import (
     validate_url,
     analyze_with_claude,
