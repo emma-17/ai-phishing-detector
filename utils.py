@@ -147,7 +147,7 @@ def analyze_with_gemini(system_prompt: str, user_prompt: str, api_key: str) -> d
     Returns:
         Parsed JSON dict with risk, confidence, summary, reasons, recommendation
     """
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
 
     full_prompt = f"{system_prompt}\n\n{user_prompt}"
 
