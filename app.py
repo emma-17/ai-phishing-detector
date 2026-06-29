@@ -54,7 +54,7 @@ html, body, [class*="css"] {
 }
 
 /* ── Hide default Streamlit chrome ── */
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu, footer { visibility: hidden; }
 .block-container { padding-top: 2rem; max-width: 1100px; }
 
 /* ── Animated grid background ── */
